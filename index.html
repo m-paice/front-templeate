@@ -41,7 +41,7 @@
           <h1>This is Road Trip</h1>
         </header>
       </div>
-      <a href="#one" class="more">Learn More</a>
+      <!-- <button id="btn-webchat">Learn More</button> -->
     </section>
 
     <!-- One -->
@@ -64,7 +64,7 @@
             </p>
           </div>
           <footer>
-            <a href="generic.html" class="button alt">Learn More</a>
+            <button id="btn-webchat">Learn More</button>
           </footer>
         </article>
       </div>
@@ -215,7 +215,12 @@
     <script src="assets/js/main.js"></script>
 
     <script>
-      window._digisac = { id: "14265528-3043-4923-bf98-5b9fdce46952" };
+      window._digisac = {
+        id: "14265528-3043-4923-bf98-5b9fdce46952",
+        payload: {
+          visibleButton: false,
+        },
+      };
     </script>
     <script src="https://staging-webchat.digisac.app/embedded.js"></script>
   </body>
